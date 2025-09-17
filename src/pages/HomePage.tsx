@@ -67,17 +67,17 @@ export const HomePage: React.FC = () => {
     {
       title: "Black Marble Memorial",
       material: "Marble",
-      image: "src/pages/number2blackmarble.png",
+      image: "/samples/number2blackmarble.png",
     },
     {
       title: "Premium Brass Plaque",
       material: "Brass",
-      image: "src/pages/number1brazz.png",
+      image: "/samples/number1brazz.png",
     },
     {
       title: "Natural Slate Memorial",
       material: "Slate",
-      image: "src/pages/number5.png",
+      image: "/samples/number5.png",
     },
   ];
 
@@ -191,21 +191,21 @@ export const HomePage: React.FC = () => {
                 title: "Choose Material & Design",
                 description:
                   "Select from premium materials like marble, brass, or steel. Customize size, colors, and engraving style.",
-                image: "src/pages/image1.png",
+                image: "/howitworks/image1.png",
               },
               {
                 step: "02",
                 title: "Create Memorial Page",
                 description:
                   "Add photos, stories, and memories to create a digital memorial that the QR code will link to.",
-                image: "src/pages/image2.png",
+                image: "/howitworks/image2.png",
               },
               {
                 step: "03",
                 title: "Receive & Install",
                 description:
                   "Your handcrafted plaque arrives with everything needed for installation and a test QR scan.",
-                image: "src/pages/image3.png",
+                image: "/howitworks/image3.png",
               },
             ].map((step, index) => (
               <motion.div
